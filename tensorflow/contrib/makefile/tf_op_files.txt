@@ -38,8 +38,6 @@ tensorflow/core/kernels/stack_ops.cc
 tensorflow/core/kernels/split_op.cc
 tensorflow/core/kernels/split_v_op.cc
 tensorflow/core/kernels/split_lib_cpu.cc
-tensorflow/core/kernels/spectrogram_op.cc
-tensorflow/core/kernels/spectrogram.cc
 tensorflow/core/kernels/sparse_to_dense_op.cc
 tensorflow/core/kernels/sparse_matmul_op.cc
 tensorflow/core/kernels/sparse_fill_empty_rows_op.cc
@@ -303,3 +301,8 @@ tensorflow/core/kernels/segment_reduction_ops.cc
 tensorflow/core/ops/audio_ops.cc
 tensorflow/core/kernels/decode_proto_op.cc
 tensorflow/core/kernels/encode_proto_op.cc
+tensorflow/contrib/rnn/kernels/blas_gemm.cc
+tensorflow/contrib/rnn/kernels/gru_ops.cc
+tensorflow/contrib/rnn/kernels/lstm_ops.cc
+tensorflow/contrib/rnn/ops/lstm_ops.cc
+tensorflow/contrib/rnn/ops/gru_ops.cc
