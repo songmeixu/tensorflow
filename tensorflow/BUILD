@@ -528,6 +528,8 @@ tf_cc_shared_object(
         "//tensorflow/cc:scope",
         "//tensorflow/cc/profiler",
         "//tensorflow/core:tensorflow",
+        "//tensorflow/contrib/rnn:lstm_ops_kernels",
+        "//tensorflow/contrib/rnn:gru_ops_kernels",
     ],
 )
 
