@@ -95,3 +95,16 @@ new_http_archive(
         "http://download.tensorflow.org/models/speech_commands_v0.01.zip",
     ],
 )
+
+android_ndk_repository(
+  name="androidndk",
+  path="/Users/songmeixu/library/Android/Sdk/ndk-bundle",
+  api_level=14)
+
+
+android_sdk_repository(
+  name="androidsdk",
+  api_level=23,
+  path="/Users/songmeixu/Library/Android/sdk",
+  build_tools_version="27.0.3")
+

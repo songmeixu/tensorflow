@@ -451,6 +451,7 @@ def tf_workspace(path_prefix="", tf_repo_name=""):
   tf_http_archive(
       name = "llvm",
       urls = [
+          "https://cdn.cnbj1.fds.api.mi-img.com/smx-share/llvm-bf13d093f13a295d71080614c3036ada591201d5.tar.gz",
           "https://mirror.bazel.build/github.com/llvm-mirror/llvm/archive/bf13d093f13a295d71080614c3036ada591201d5.tar.gz",
           "https://github.com/llvm-mirror/llvm/archive/bf13d093f13a295d71080614c3036ada591201d5.tar.gz",
       ],
