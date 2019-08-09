@@ -92,7 +92,9 @@ class LogMessageFatal : public LogMessage {
 
 #define _TF_LOG_QFATAL _TF_LOG_FATAL
 
+#ifndef LOG(severity)
 #define LOG(severity) _TF_LOG_##severity
+#endif
 
 #ifdef IS_MOBILE_PLATFORM
 
