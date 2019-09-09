@@ -319,9 +319,6 @@ tf_kernel_library(
 
 tf_kernel_library(
     name = "gru_ops_kernels",
-    srcs = [
-      "ops/gru_ops.cc",
-    ],
     prefix = "kernels/gru_ops",
     deps = [
         ":blas_gemm",
@@ -335,9 +332,6 @@ tf_kernel_library(
 
 tf_kernel_library(
     name = "lstm_ops_kernels",
-    srcs = [
-      "ops/lstm_ops.cc",
-    ],
     prefix = "kernels/lstm_ops",
     deps = [
         ":blas_gemm",
